@@ -40,43 +40,27 @@ The **Kellgren and Lawrence (KL)** grading system is used to assess OA severity 
 
 ---
 
-## 🗂️ Directory Structure
+## 📁 Directory Structure
 
 knee-osteoarthritis-analysis/
-├── app.py
-├── archive.zip
-├── requirements.txt
-├── assets/
-│   ├── confusion_matrix_3_ensemble.png
-│   ├── data.png
-│   ├── Doubtful.png
-│   ├── ensemble_best.png
-│   ├── ensemble.png
-│   ├── Healthy.png
-│   ├── KL-score.png
-│   ├── Minimal.png
-│   ├── Moderate.png
-│   ├── Severe.png
-│   ├── streamlit_knee_logo.png
-│   └── streamlit_knee_ss.png
-├── app/
-│   └── img/
-│       └── NG1.jpg
-├── models/
-│   ├── model_ResNet50_ft.hdf5
-│   ├── model_Xception_ft.hdf5
-│   └── model_Inception_ResNet_V2_ft.hdf5
-├── dataset/
-│   ├── train/
-│   ├── val/
-│   └── test/
-├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_ensemble_models.ipynb
-│   ├── 03_best_model_on_test_xception.ipynb
-│   ├── 02_model_inception.ipynb
-│   ├── 02_model_resnet50.ipynb
-│   ├── 02_model_xception.ipynb
-│   └── 03_evaluate_model.ipynb
+│
+├── app.py                     # Main application entry point
 
+├── archive.zip                # Zipped archive of resources or data
 
+├── requirements.txt           # Python dependencies
+
+│
+├── assets/                    # Images, plots, or other visual resources
+
+│
+├── app/                       # Core application logic (routes, configs, etc.)
+
+│
+├── models/                    # Trained ML models or model-related scripts
+
+│
+├── dataset/                   # Raw or processed datasets
+
+│
+├── notebooks/                 # Jupyter notebooks for EDA, modeling, etc.
